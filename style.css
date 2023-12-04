@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+.nanum-gothic{font-family: 'Nanum Gothic Coding', monospace;}
+
+*{margin: 0px; padding: 0px;}
 a{text-decoration: none;}
 
 header{
-    width : 800px;
     height: 95px;
+    background-color: cadetblue;
+    position: relative;
+    border-bottom: 1px solid black;
 }
 
 .doheader {
     top: 20px;
-    height: 20px;
-    border-bottom: 1px solid black;
+    left: 20px;
+    height: 70px;
     display: flex;
     align-items: center;
-    font-size: 36px;
+    font-size: 28px;
+    position: absolute;
 }
