@@ -1,50 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-.nanum-gothic{font-family: 'Nanum Gothic Coding', monospace;}
-
-*{margin: 0px; padding: 0px;}
-a{text-decoration: none;}
-
-header{
-    height: 95px;
-    background-color: cadetblue;
-    position: relative;
-    border-bottom: 1px solid black;
+* {
+    box-sizing: border-box; 
+    /*content-box랑 border-box두가지 선택이 가능. content-box는 지정한 크기가 요소만의 크기가 되는데 border-box는 요소+padding+border의 크기가 된다.*/
 }
 
-.doheader {
-    top: 20px;
-    left: 20px;
-    height: 70px;
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+header {
+    background: aliceblue;
+    margin: auto;
+    width: 1080px;
+    height: 215px;
     display: flex;
-    align-items: center;
-    font-size: 28px;
-    position: absolute;
+    position: relative;/**/
 }
 
-main{
-    position: relative;
-    width: 500px;
-    height: 100px;
-    overflow: auto;
+main {
+    background-color: lightgray;
+    min-height: 700px;
 }
 
-.container{
-    width: 80%;
-    left: 10%;
-    float:left;
+footer {
+    background: darkgray;
+    width: 1080px;
+    height: 310px;
+    display: flex;
+    margin: auto;
 }
 
-.sidebar {
-    float:right;
-    width: 20%;
-    right: 0px;
+.container {
+    background-color: yellow;
 }
-
-.mcategory {
-    position: sticky;
-    top: 10px;
-    right: 16px;
-    
-}
-
-
